@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        hr{
+    float: left;
+}
+    </style>
+    
+</head>
+<body>
+    Imran, Masud, Milon,Bijoy, Alamin, Nazmulhossain
+    <br>
+Facebook friends Big name=
+
+
+<script>
+        
+        function maxWord(senteces){
+            return senteces.split(" ").sort(function(min, max){
+                return max.length - min.length;
+            })[0];
+        }
+        document.write(maxWord("Imran Masud Milon Bijoy Alamin Nazmulhossain"));
+
+</script>
+
+<br>
+<br>
+
+<br>
+Laptop=50000
+<br>
+Phone=10000
+<br>
+Watch=5000
+<br>
+<hr width="10%">
+<br>
+Total price=
+
+<script>
+
+        function market(number){
+                var x=+number;
+                return x;
+            }
+
+            var output= market(50000);
+            var output2= market(10000);
+            var output3= market(5000);
+            document.write(output + output2 + output3);
+</script>
+    
+</body>
+</html>
